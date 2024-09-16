@@ -102,7 +102,7 @@ function setupBot(api, prefix) {
   //api.setOptions({ listenEvents: true });
   api.setOptions({
     forceLogin: false,
-    listenEvents: true,
+    listenEvents: false,
     logLevel: "error",
     selfListen: false,
     online: true,
